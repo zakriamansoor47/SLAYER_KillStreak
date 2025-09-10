@@ -57,3 +57,26 @@ Show the Kill Icon and play the kill sound on killing a player.
   "ConfigVersion": 1
 }
 ```
+
+## To use Battlefield Icons:
+```json
+{  
+    ExtendKillStreakIcons: true,
+    "KillIcons": {
+      "1": // Unique Kill Count Number. (This is for the first kill)
+      { 
+        "Icon": "<a href=\"https://imgbb.com/\"><img src=\"https://i.ibb.co/93fMBmcB/kill.png\" alt=\"kill\" border=\"0\"></a>", // Icon source html link
+        "Sound": "BF.Kill", // Kill Sound Title in sound event file
+        "Duration": 3.0 // How long this kill icon should be displayed
+      }
+    }
+    "HeadshotIcons": {
+      "1": // Unique Headshot Kill Count Number. (This is for the first headshot kill)
+      { 
+        "Icon": "<a href=\"https://imgbb.com/\"><img src=\"https://i.ibb.co/wZDrtkxG/headshot.png\" alt=\"headshot\" border=\"0\"></a>", // Icon source html link
+        "Sound": "BF.Headshot", // Kill Sound Title in sound event file
+        "Duration": 3.0 // How long this kill icon should be displayed
+      }
+    } 
+}
+```
