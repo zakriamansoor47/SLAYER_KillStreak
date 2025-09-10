@@ -15,7 +15,7 @@ Show the Kill Icon and play the kill sound on killing a player.
 ```json
 {
   "ShowKillInfo": true,  // Show Text Kill Info Message in center
-  "KillInfoMessage": "\u003Cbr\u003E\u003Cfont class=\u0027fontSize-m\u0027 color=\u0027red\u0027\u003EKilled\u003C/font\u003E \u003Cfont class=\u0027fontSize-m\u0027 color=\u0027lime\u0027\u003E{PlayerName}\u003C/font\u003E \u003Cfont class=\u0027fontSize-m\u0027 color=\u0027gold\u0027\u003E[{WeaponName}]\u003C/font\u003E", // Kill Info Message
+  "KillInfoMessage": "<br><font class='fontSize-m' color='red'>Killed</font> <font class='fontSize-m' color='lime'>{PlayerName}</font> <font class='fontSize-m' color='gold'>[{WeaponName}]</font>", // Kill Info Message
   "LoopIfKillIconsEnd": true, // Loop the Killstreak if kills count becomes greater than available KillIcons.
   "ExtendKillStreakIcons": false, // Extend Kill streak icons instead of replacing them after killing.
   "SoundEventPath": "soundevents/slayer-killstreak.vsndevts", // sound event path for the killstreak
