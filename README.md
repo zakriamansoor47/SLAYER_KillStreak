@@ -23,7 +23,7 @@ Show the Kill Icon and play the kill sound on killing a player.
   "KillIcons": {
     "1": // Unique Kill Count Number. (this is for the first kill)
     { 
-      "Icon": "<a href=\"https://imgbb.com/\"><img src=\"https://i.ibb.co/PLL04Q8/kill1.png\" alt=\"kill1\" border=\"0\"></a>", // Icon source html link
+      "Icon": "<a href=\"https://imgbb.com/\"><img src=\"https://i.ibb.co/PLL04Q8/kill1.png\" alt=\"kill1\" border=\"0\"></a>", // Icon source html link. (These are valorant Kill icons)
       "Sound": "Kill.Sound_01", // Kill Sound Title in sound event file
       "Duration": 3.0 // How long this kill icon should be displayed
     },
